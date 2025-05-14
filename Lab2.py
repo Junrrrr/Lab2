@@ -7,7 +7,7 @@ def display_main_menu():
 def get_user_input():
     print("get_user_input")
     inputstr = input()
-    strlist = inputstr.split(", ")
+    strlist = inputstr.split(",")
     print(strlist)
     return strlist
 
